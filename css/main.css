@@ -48,16 +48,69 @@ img {
   }
   .Dimetrodon {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: 20px;
     background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 15px;
+  }
+  html {
     font-size: 110%;
-    line-height: 1.4rem;
+    line-height: 1.4;
   }
 
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
+
+  .picture {
+    position: relative;
+  }
+  .Dimetrodon {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 15px;
+  }
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+  .picture {
+    position: relative;
+  }
+  .Dimetrodon {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 15px;
+  }
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
 
 }
