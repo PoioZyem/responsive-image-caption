@@ -26,18 +26,18 @@ img {
   width: 100%;
 }
 
-.Dimetrodon {
+.dimetrodon {
   display: block;
   background-color: #e2e2e2;
   padding: 1em;
 }
 
-.Dimetrodon h1 {
-  font-family: Denk One;
+.dimetrodon h1 {
+  font-family: "Denk One" sans-serif;
   font-size: 1.5rem;
 }
 
-.Dimetrodon p {
+.dimetrodon p {
   font-family: Georgia;
 }
 
@@ -46,14 +46,17 @@ img {
   .picture {
     position: relative;
   }
-  .Dimetrodon {
+  .dimetrodon {
+
     position: absolute;
     right: 20px;
     bottom: 20px;
     background-color: rgba(0, 0, 0, .3);
     color: #fff;
     border-radius: 15px;
+
   }
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -71,14 +74,15 @@ img {
   .picture {
     position: relative;
   }
-  .Dimetrodon {
+  .dimetrodon {
     position: absolute;
     right: 20px;
     bottom: 20px;
     background-color: rgba(0, 0, 0, .3);
     color: #fff;
-    border-radius: 15px;
+    border-radius: 15px;s
   }
+
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -90,12 +94,12 @@ img {
   }
 
 }
-
 @media only screen and (min-width: 90em) {
+
   .picture {
     position: relative;
   }
-  .Dimetrodon {
+  .dimetrodon {
     position: absolute;
     right: 20px;
     bottom: 20px;
@@ -103,6 +107,7 @@ img {
     color: #fff;
     border-radius: 15px;
   }
+
   html {
     font-size: 130%;
     line-height: 1.5;
